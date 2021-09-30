@@ -1,2 +1,3 @@
-# entwicklungsreport-2021
+# Entwicklungsreport 2021
 Ein Trendreport über den Stand des Journalismus.
+
