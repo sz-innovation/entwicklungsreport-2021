@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+
+    font-kerning: normal;
+    hyphens: auto;
+    hyphenate-limit-chars: auto 5;
+    hyphenate-limit-lines: 2;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-chars: auto 3;
+    -webkit-hyphenate-limit-lines: 4;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: auto 3;
+    -ms-hyphenate-limit-lines: 4;
+}
+
+.pre, .next {
+    hyphens: none;
+}
+
+// FONT HELPERS
+
+.sans-serif {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.mono {
+    font-family: 'Source Code Pro', monospace !important;
+}
+
+article {
+    a {
+        color: black;
+        text-decoration-color: gold !important;
+    }
+
+    blockquote {
+        background: #f9f9f9;
+        border-left: 4px solid gold;
+        margin: 1.5em 0px;
+        padding: 0.3em 20px;
+        quotes: "\201C""\201D""\2018""\2019";
+    }
+
+}

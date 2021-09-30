@@ -1,0 +1,13 @@
+<div class="flex">
+    <div class="w-50 pt3 pb3 pr3">
+        {% if page.previous.url %}
+            <a class="prev link black br-pill bg-yellow f5 pa2 pl3 pr3" href="{{site.url}}/{{page.previous.url}}">zurück</a>
+        {% endif %}
+    </div>
+    
+    <div class="w-50 pa3 tr">
+        {% if page.next.url %}
+        <a class="next link black br-pill bg-yellow f5 pa2 pl3 pr3" href="{{site.url}}/{{page.next.url}}">weiter</a>
+        {% endif %}
+    </div>
+</div>
