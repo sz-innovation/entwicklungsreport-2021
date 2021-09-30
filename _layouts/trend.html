@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="mt6 flex flex-wrap">
-    <div class="w-70-ns w-100 bt">
+    <div class="w-70-ns w-100 bt pr1">
         <div class="bb">{% include next-previous-article.html %}</div>
         <article class="f3-ns f4 mt5 mb6">
             <div class="mb6">
@@ -17,8 +17,8 @@ layout: default
         </article>
         <div class="bt">{% include next-previous-article.html %}</div>
     </div>
-    <div class="w-30-ns w-100 pb7 bl-ns bt">
-        <p class="pa2 pl3 pb3 f4-ns f5 bb">Inhaltsverzeichnis</p>
+    <div class="w-30-ns w-100 pb7 bl-ns pl1 pr1 bt">
+        <p class="pa2 pl3 f4-ns f5 bb mb0 mono ttu">Inhaltsverzeichnis</p>
         {% for article in site.trends %}
             {% if article.title == page.title %}
             <div class="pa3 bb ma0 bg-yellow">
