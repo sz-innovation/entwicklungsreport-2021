@@ -20,7 +20,7 @@
 
 title: Entwicklungsreport 2021
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" #"https://klingebeil.github.io/entwicklungsreport-2021-test/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sz-innovation.github.io/entwicklungsreport-2021/" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-feed
