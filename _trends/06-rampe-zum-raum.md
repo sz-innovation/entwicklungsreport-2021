@@ -3,6 +3,6 @@ layout: trend
 title: Von der Rampe zum Raum
 subtitle: Ich bin ein Untertitel
 teaser-img: "rampe-zum-raum.svg"
-teaser-img-social:
-nummmer: 06
+teaser-img-social: ""
+nummmer: "06"
 ---
