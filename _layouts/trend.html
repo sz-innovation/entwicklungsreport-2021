@@ -10,9 +10,8 @@ layout: default
                 <div class="br-100 pa3 w4 h4 bg-yellow">
                     <img src="{{site.url}}/img/{{ page.teaser-img }}">
                 </div>
-                <p class="mono grey ma0 f6">{{ page.id }}/</p>
                 <h1 class="f1-ns f2 ma0 pt3 measure w-60-ns">{{ page.title }}</h1>
-                <p class="i self-end mb6 mb2-ns lh-copy measure">{{ page.subtitle }} <a class="f6 pa1 pl2 pr2 br-pill link black bg-yellow mt0 mono fs-normal" target="_blank" href="https://twitter.com/intent/tweet/?text={{ page.subtitle | replace: " ", "%20" }}%20{{page.url}}">Tweet</a></p>
+                <p class="grey i self-end mb6 mb2-ns lh-copy measure">{{ page.subtitle }} <a class="f6 pa1 pl2 pr2 br-pill link black bg-yellow mt0 mono fs-normal" target="_blank" href="https://twitter.com/intent/tweet/?text={{ page.subtitle | replace: " ", "%20" }}%20{{page.url}}">Tweet</a></p>
             </div>
             <div class="lh-copy measure-ns pr3-ns">{{ content }}</div>
         </article>
