@@ -4,7 +4,6 @@ title: Editorial
 subtitle: Erst, wenn wir beginnen die Gegenwart in ihren Nuancen zu entdecken, können wir sie tatsächlich verstehen und auf eine mögliche Zukunft hinarbeiten.
 teaser-img: "editorial.svg"
 teaser-img-social: ""
-id: "00"
 ---
 
 Wenn die "Zukunft des Journalismus" in unserer Branche diskutiert wird, ist es oft eine die den Medien zustößt. Digitalisierung, Automatisierung, neue soziale Netzwerke, neue Technologien, wegbrechende Anzeigenumsätze, unwillige Abonnenten, Brain-drain—die Liste  der Herausforderungen ist lang.

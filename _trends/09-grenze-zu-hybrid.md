@@ -4,5 +4,4 @@ title: Von der klaren Grenze zum flüssigen Hybrid
 subtitle: Ich bin ein Untertitel
 teaser-img: "grenze-zu-hybrid.svg"
 teaser-img-social: ""
-nummmer: "09"
 ---
