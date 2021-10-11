@@ -104,6 +104,7 @@ section {
     line-height: 1;
     letter-spacing: -0.02em;
     max-width: 6em;
+    hyphens: none;
 
     @media (min-width: 120vh) {
     font-size: 14vh;
