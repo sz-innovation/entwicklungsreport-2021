@@ -28,5 +28,3 @@ Anhänger der Bewegung wollen diese verschiedenen Stränge nicht auflösen. Logi
 ## Welche Fragen stellt sich für uns?
 
 ## Weiterlesen
-
-Bad Metaphors: Conspiracy Wall—The memeable trope distracts us from the way conspiracy theories actually spread (https://reallifemag.com/conspiracy-wall/)

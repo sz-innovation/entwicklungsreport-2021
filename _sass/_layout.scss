@@ -33,7 +33,7 @@ nav ul {
 
 #menu-button {
     position: fixed;
-    top: 5;
+    top: 0;
     right: 10;
     text-align: right;
     z-index: 100;
@@ -47,7 +47,8 @@ nav ul {
 
 .opened {
     position: fixed;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
     padding-top: 50px;
     top: 0;
     height: 100%;
