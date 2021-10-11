@@ -93,23 +93,28 @@ section {
 /*ELEMENTS*/
 
 #splash-header {
-    height: 60vh;
+    height: 70vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     box-sizing: border-box;
     text-align: center;
     font-size: 15vw;
     line-height: 1;
+    justify-content: center;
     letter-spacing: -0.02em;
     max-width: 6em;
     hyphens: none;
 
-    @media (min-width: 120vh) {
-    font-size: 14vh;
-    max-width: 6em;
-    margin: 0 auto;
+    h1 {
+        font-size: 15vw;
+        line-height: 1;
+
+        @media (min-width: 120vh) {
+        font-size: 9vh;
+        max-width: 6em;
+        margin: 0 auto;
+        }
     }
 }
 
