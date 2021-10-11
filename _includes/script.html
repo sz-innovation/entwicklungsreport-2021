@@ -1,33 +1,28 @@
 <script type="text/javascript">
-var toggle = false;
+
 var menuButton = document.querySelector('#menu-button');
 var contents = document.querySelector('#contents');
 
-function toggleContent() {
-    if (toggle == false) {
-        contents.classList.remove("dn");
-        contents.classList.add("opened");
-        document.body.classList.add("contents-open");
-        toggle = true;
-    } else {
-        contents.classList.add("dn");
-        contents.classList.remove("opened");
-        document.body.classList.remove("contents-open");
-        toggle = false;
-    }
-}
-
 menuButton.addEventListener("click", function() {
+    let op = 0.1;  // initial opacity
+    contents.style.opacity = op;
     contents.classList.remove("dn");
     contents.classList.add("opened");
     document.body.classList.add("contents-open");
-    toggle = true;
+
+    var timer = setInterval(function () {
+        if (op >= 1){
+            clearInterval(timer);
+        }
+        contents.style.opacity = op;
+        contents.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.1;
+    }, 10);
 });
 
 contents.addEventListener("click", function() {
     contents.classList.add("dn");
     contents.classList.remove("opened");
     document.body.classList.remove("contents-open");
-    toggle = false;
 });
 </script>
