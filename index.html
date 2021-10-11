@@ -23,7 +23,7 @@ title: Entwicklungsreport 2021
                 <h2 class="pr4 pb1 sticky-header junicode f3 bg-near-black" id="{{ article.title | replace: " ", "_" }}">
                     <a class="near-white link" href="#{{ article.title | replace: " ", "_" }}">{{article.title}}</a>
                 </h2>
-                <p class=" ma0 mt4 junicode f2">{{article.subtitle}} <a class="f6 pa1 pl2 pr2 br-pill link near-white ba mt0 ml2 mono fs-normal tweet-button" target="_blank" href="https://twitter.com/intent/tweet/?text={{ article.subtitle | replace: " ", "%20" }}%20{{ site.url }}#{{ article.title | replace: " ", "_" }}">Tweet</a></p></p>
+                <p class=" ma0 mt4 junicode f2">{{article.subtitle}} <a class="pa1 pl2 pr2 br-pill link near-white ba mt0 ml2 mono fs-normal tweet-button" target="_blank" href="https://twitter.com/intent/tweet/?text={{ article.subtitle | replace: " ", "%20" }}%20{{ site.url }}#{{ article.title | replace: " ", "_" }}">Tweet</a></p></p>
                 {{article.content}}
             </section>
             {% endfor %}
