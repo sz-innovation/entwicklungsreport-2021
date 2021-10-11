@@ -3,13 +3,13 @@
 
 @font-face {
     font-family: 'Junicode-Condensed';
-    src: url('{{site.url}}/fonts/junicode-boldcondensed-webfont.woff') format('woff');
+    src: url('/fonts/junicode-boldcondensed-webfont.woff') format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Junicode-Condensed';
-    src: url('{{site.url}}/fonts/junicode-regularcondensed-webfont.woff') format('woff');
+    src: url('/fonts/junicode-regularcondensed-webfont.woff') format('woff');
     font-weight: normal;
 }
 
