@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap');
 
+@font-face {
+    font-family: 'Junicode-Condensed';
+    src: url('/assets/junicode-boldcondensed-webfont.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Junicode-Condensed';
+    src: url('/assets/junicode-regularcondensed-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     font-size: 1.5em;
+
+    background-color: #111111;
+    color: #F4F4F4;
 
     font-kerning: normal;
     hyphens: auto;
@@ -31,6 +46,10 @@ body {
     font-family: 'Source Code Pro', monospace !important;
 }
 
+.junicode {
+    font-family: 'Junicode-Condensed' !important;
+}
+
 article {
     a {
         color: black;
@@ -45,4 +64,66 @@ article {
         quotes: "\201C""\201D""\2018""\2019";
     }
 
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    hyphens: none;
+}
+
+section {
+    h2, h3, h4, h5 {
+        font-family: 'Source Code Pro', monospace !important;
+        font-size: 0.8em;
+        color: #AAAAAA;
+        margin-left: 1.0em;
+        margin-top: 3em;
+    }
+
+    h1 {
+        font-family: 'Junicode-Condensed' !important;
+        margin-left: 1.5em;
+    }
+
+    div, p {
+        margin-left: 1.5em;
+    }
+}
+
+/*ELEMENTS*/
+
+#splash-header {
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15vw;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    max-width: 6em;
+
+    @media (min-width: 120vh) {
+    font-size: 14vh;
+    max-width: 6em;
+    margin: 0 auto;
+    }
+}
+
+.sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    margin: 0 0;
+    z-index: 50;
+    color: #f4f4f4
+}
+
+.tweet-button {
+    position: relative;
+    top: -6;
 }
