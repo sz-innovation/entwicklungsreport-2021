@@ -34,3 +34,18 @@
 .hover-contrast:hover {
     color: var(--main-contrast);
 }
+
+// ANIMATIONS
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.rotate-slow {
+    animation: rotation 30s infinite linear;
+}
