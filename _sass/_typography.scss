@@ -16,11 +16,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
     font-size: 1.5em;
-
-    background-color: #111111;
-    color: #F4F4F4;
 
     font-kerning: normal;
     hyphens: auto;
@@ -50,21 +46,7 @@ body {
     font-family: 'Junicode-Condensed' !important;
 }
 
-article {
-    a {
-        color: black;
-        text-decoration-color: gold !important;
-    }
-
-    blockquote {
-        background: #f9f9f9;
-        border-left: 4px solid gold;
-        margin: 1.5em 0px;
-        padding: 0.3em 20px;
-        quotes: "\201C""\201D""\2018""\2019";
-    }
-
-}
+//TYPE
 
 h1, h2, h3, h4, h5 {
     font-weight: normal;
@@ -75,7 +57,7 @@ section {
     h2, h3, h4, h5 {
         font-family: 'Source Code Pro', monospace !important;
         font-size: 0.8em;
-        color: #AAAAAA;
+        color: var(--main-contrast);
         margin-left: 1.0em;
         margin-top: 3em;
     }
@@ -122,15 +104,22 @@ section {
     position: sticky;
     top: -1;
     left: 0;
-    padding-left: 0;
+    padding-left: 1.5em;
+    text-indent:-1.5em;
     margin: 0 0;
     z-index: 50;
-    color: #f4f4f4;
-    box-shadow: 0px 0px 40px rgba(17, 17, 17, 1);
+    box-shadow: 0px 0px 40px #e9e0d6;
+}
+
+.sticky-header:before {
+    content: "CHPT: ";
+    font-size: 0.4em;
+    color: var(--text-secondary);
+    font-family: 'Source Code Pro', monospace !important;
 }
 
 .tweet-button {
     position: relative;
-    top: -5;
+    top: -2;
     font-size: 0.3em;
 }

@@ -3,25 +3,10 @@ body{
     height:100vh;
     margin: 0;
     padding: 0;
-    background-color: #FFCC00;
-}
-
-//CONTENTS
-.current-page {
-    background-color: yellow;
 }
 
 //IMAGE STYLES
 img {border-radius: 5px;}
-
-// Next & Prev Article Navigation
-.next::after {
-    content: " →";
-}
-
-.prev::before {
-    content: "← ";
-}
 
 //NAV BAR
 
@@ -41,12 +26,18 @@ nav ul {
 
 #menu-button {
     position: fixed;
-    top: 0;
+    top: 7;
     right: 10;
     text-align: right;
     z-index: 100;
     background: none;
     cursor: pointer;
+
+    color: var(--main-contrast);
+    border: 0.5px solid var(--main-contrast);
+
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
 }
 
 .contents-open {
@@ -61,5 +52,5 @@ nav ul {
     top: 0;
     height: 100%;
 
-    a {color: #F4F4F4;}
+    a {color: var(--main-contrast);}
 }

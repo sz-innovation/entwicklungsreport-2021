@@ -1,0 +1,36 @@
+:root {
+    --bg-main: #EAE1D6;
+    --main-contrast: #0963E6;
+    --text: #312937;
+    --text-secondary: #555555;
+  }
+
+//HELPERS
+
+.contrast-color {
+    color: var(--main-contrast) !important;
+}
+
+.bg-contrast {
+    background-color: var(--main-contrast) !important;
+}
+
+.bg-main-color {
+    color:var(--bg-main) !important;
+}
+
+.bg-main {
+    background-color: var(--bg-main) !important;
+}
+
+.txt-color {
+    color: var(--text);
+}
+
+.txt-color-secondary {
+    color: var(--text-secondary);
+}
+
+.hover-contrast:hover {
+    color: var(--main-contrast);
+}

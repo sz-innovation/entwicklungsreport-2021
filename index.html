@@ -5,28 +5,28 @@ title: Entwicklungsreport 2021
 <div>
     <div id="splash-header">
         <p class="tc ma0"><img class="center w-25-l w-30-m w-50 50 ma0" src="{{site.url}}/img/splash-img.png"></p>
-        <h1 class="pt4 junicode normal tc near-white">Was formt die Zukunft des Journalismus?</h1>
+        <h1 class="pt4 junicode normal tc contrast-color">Was formt die Zukunft des Journalismus?</h1>
     </div>
-    <h1 class="mt0 mb5 measure-wide center f5-ns f6 lh-copy tc mono light-silver lj-solid">Die Zukunft bleibt trotz aller gegenteiligen Versuche unvorhersagbar—eine Lektion, die zu genüge durch die letzten 18 Monate wiederholt wurde. Und ebenso wie es nicht die <i>eine gelebte journalistische Gegenwart</i> gibt, wird es auch nicht die <i>eine singuläre Zukunft des Journalismus</i> geben.</h1>
+    <h1 class="mt0 mb5 measure-wide center f5-ns f6 lh-copy tc mono txt-color-secondary lj-solid">Die Zukunft bleibt trotz aller gegenteiligen Versuche unvorhersagbar—eine Lektion, die zu genüge durch die letzten 18 Monate wiederholt wurde. Und ebenso wie es nicht die <i>eine gelebte journalistische Gegenwart</i> gibt, wird es auch nicht die <i>eine singuläre Zukunft des Journalismus</i> geben.</h1>
 
     <div class="flex flex-wrap w-100 mt7">
         <div class="w-25-ns w-0 junicode pr2" id="nav">
-            <button class="near-white dib dn-ns bn pa1 pl2 pr2" id="menu-button">Contents</button>
+            <button class="mono f6 br-pill dib dn-ns bn pl2 pr2" id="menu-button">Contents</button>
             <nav class="w-100 dn dib-ns" id="contents">
                 <ul>
                     {% for article in site.trends %}
-                        <li class="mb3"><a href="#{{ article.title | replace: " ", "_" }}" class="hover-white link light-silver">{{ article.title }}</a></li>
+                        <li class="mb3"><a href="#{{ article.title | replace: " ", "_" }}" class="contrast-color link">{{ article.title }}</a></li>
                     {% endfor %}
                 </ul>
             </nav>
         </div>
         <div class="w-75-ns w-100">
             {% for article in site.trends %}
-            <section class="f4-ns f5 mb7 pl3-ns near-white w-100 lh-copy measure-wide">
-                <h2 class="pt2 pr5 pb2 sticky-header junicode f3 bg-near-black lh-solid" id="{{ article.title | replace: " ", "_" }}">
-                    <a class="near-white link" href="#{{ article.title | replace: " ", "_" }}">{{article.title}}</a>
+            <section class="f4-ns f5 mb7 pl3-ns txt-color w-100 lh-copy measure-wide sans-serif">
+                <h2 class="pt2 pr6 pb2 sticky-header junicode f3 bg-main lh-solid" id="{{ article.title | replace: " ", "_" }}">
+                    <a class="contrast-color link" href="#{{ article.title | replace: " ", "_" }}">{{article.title}}</a>
                 </h2>
-                <p class=" ma0 mt4 junicode f2 lh-title">{{article.subtitle}} <a class="pa1 pl2 pr2 br-pill link near-white ba mt0 ml2 mono fs-normal tweet-button" target="_blank" href="https://twitter.com/intent/tweet/?text={{ article.subtitle | replace: " ", "%20" }}%20{{ site.url }}#{{ article.title | replace: " ", "_" }}">Tweet</a></p></p>
+                <p class=" ma0 ml4 mt4 junicode f2 lh-title pullquote">{{article.subtitle}} <a class="pl2 pr2 br-pill link contrast-color ba mt0 ml2 mono fs-normal tweet-button" target="_blank" href="https://twitter.com/intent/tweet/?text={{ article.subtitle | replace: " ", "%20" }}%20{{ site.url }}#{{ article.title | replace: " ", "_" }}">Tweet</a></p></p>
                 {{article.content}}
             </section>
             {% endfor %}
