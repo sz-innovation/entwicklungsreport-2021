@@ -2,8 +2,6 @@
 layout: trend
 title: Intro
 subtitle: Erst, wenn wir beginnen die Gegenwart in ihren Nuancen zu entdecken, können wir sie tatsächlich verstehen und auf eine mögliche Zukunft hinarbeiten.
-teaser-img: "editorial.svg"
-teaser-img-social: ""
 ---
 
 ## 01
