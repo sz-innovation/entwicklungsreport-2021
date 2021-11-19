@@ -9,13 +9,14 @@ title: Entwicklungsreport 2021
     </div>
     <h1 class="mt0 mb5 measure-wide center f5-ns f6 lh-copy tc mono txt-color-secondary lj-solid">Die Zukunft bleibt trotz aller gegenteiligen Versuche unvorhersagbar—eine Lektion, die zu genüge durch die letzten 18 Monate wiederholt wurde. Und ebenso wie es nicht die <i>eine gelebte journalistische Gegenwart</i> gibt, wird es auch nicht die <i>eine singuläre Zukunft des Journalismus</i> geben.</h1>
     <p class="tc ma0 pa0">
-        <button class="mono f6 br-pill bg-main contrast-color ba pa2 pl3 pr3">
+        <button class="mono f6 br-pill bg-main contrast-color ba pa2 pl3 pr3" id="download-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
                 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
               </svg>
               Download PDF
         </button>
+        <!--<button class="mono f6 br-pill bg-main contrast-color ba pa2 pl3 pr3" id="print-btn">Print</button>-->
     </p>
     <div class="flex flex-wrap w-100 mt7">
         <div class="w-25-ns w-0 junicode pr2" id="nav">
@@ -28,7 +29,7 @@ title: Entwicklungsreport 2021
                 </ul>
             </nav>
         </div>
-        <div class="w-75-ns w-100">
+        <article class="w-75-ns w-100" id="content">
             {% for article in site.trends %}
             <section class="f4-ns f5 mb7 pl3-ns txt-color w-100 lh-copy measure-wide sans-serif">
                 <h2 class="pt2 pr6 pb2 sticky-header junicode f3 bg-main lh-solid" id="{{ article.title | replace: " ", "_" }}">
@@ -38,7 +39,7 @@ title: Entwicklungsreport 2021
                 {{article.content}}
             </section>
             {% endfor %}
-        </div>
+        </article>
     </div>
 </div>
 

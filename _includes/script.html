@@ -1,5 +1,6 @@
 <script type="text/javascript">
 
+// MENU SCRIPS
 var menuButton = document.querySelector('#menu-button');
 var contents = document.querySelector('#contents');
 
@@ -24,5 +25,18 @@ contents.addEventListener("click", function() {
     contents.classList.add("dn");
     contents.classList.remove("opened");
     document.body.classList.remove("contents-open");
+});
+
+// BINDERY.JS
+
+document.querySelector('#print-btn').addEventListener("click", function() {
+    document.querySelector('#splash-header').classList.add('dn');
+    Bindery.makeBook({
+        content: '#content',
+        rules: [
+            Bindery.PageBreak({ selector: 'h2', position: 'before' }),
+            Bindery.FullBleedSpread({ selector: '.big-figure' }),
+        ],
+     });
 });
 </script>
