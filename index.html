@@ -31,9 +31,9 @@ title: Entwicklungsreport 2021
         </div>
         <article class="w-75-ns w-100" id="content">
             {% for article in site.trends %}
-            <section class="f4-ns f5 mb7 pl3-ns txt-color w-100 lh-copy measure-wide sans-serif">
-                <h2 class="pt2 pr6 pb2 sticky-header junicode f3 bg-main lh-solid" id="{{ article.title | replace: " ", "_" }}">
-                    <a class="contrast-color link" href="#{{ article.title | replace: " ", "_" }}">{{article.title}}</a>
+            <section class="f4-ns f5 mb5 pl3-ns txt-color w-100 lh-copy measure-wide sans-serif">
+                <h2 class="pt2 pr5 pb2 sticky-header junicode f3 bg-main lh-solid" id="{{ article.title | replace: " ", "_" }}">
+                    <a class="contrast-color ttu f6 mono link" href="#{{ article.title | replace: " ", "_" }}">{{article.title}}</a>
                 </h2>
                 {% if article.subtitle %}<p class=" ma0 ml4 mt4 junicode f2 lh-title pullquote">{{article.subtitle}} <a class="pl2 pr2 br-pill link contrast-color ba mt0 ml2 mono fs-normal tweet-button" target="_blank" href="https://twitter.com/intent/tweet/?text={{ article.subtitle | replace: " ", "%20" }}%20{{ site.url }}#{{ article.title | replace: " ", "_" }}">Tweet</a></p></p>{% endif %}
                 {{article.content}}
