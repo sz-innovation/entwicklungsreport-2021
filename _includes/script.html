@@ -30,7 +30,8 @@ contents.addEventListener("click", function() {
 // BINDERY.JS
 
 document.querySelector('#print-btn').addEventListener("click", function() {
-    document.querySelector('#splash-header').classList.add('dn');
+    document.querySelector('#nav').classList.add('dn');
+    document.querySelector('#print-btn').classList.add('dn');
     Bindery.makeBook({
         content: '#content',
         rules: [

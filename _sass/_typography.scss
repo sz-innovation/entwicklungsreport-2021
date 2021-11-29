@@ -34,23 +34,17 @@ body {
 
 // FONT HELPERS
 
-.sans-serif {
-    font-family: 'Inter', sans-serif;
-}
+.sans-serif { font-family: 'Inter', sans-serif;}
+.mono { font-family: 'Source Code Pro', monospace;}
+.junicode { font-family: 'Junicode-Condensed', serif;}
 
-.mono {
-    font-family: 'Source Code Pro', monospace;
-}
-
-.junicode {
-    font-family: 'Junicode-Condensed', serif;
-}
+.indent-big {text-indent: 3em;}
 
 //TYPE
 
 h1, h2, h3, h4, h5 {
     font-weight: normal;
-    hyphens: none;
+    hyphens: auto;
 }
 
 section {
@@ -63,8 +57,11 @@ section {
     }
 
     h1 {
-        font-family: 'Junicode-Condensed' !important;
-        margin-left: 28px;
+        //font-family: 'Junicode-Condensed' !important;
+        font-family: 'Inter', sans-serif;
+        hyphens: none;
+        font-weight: bold;
+        margin-left: 36px;
     }
 
     div, p {
@@ -75,26 +72,26 @@ section {
 /*ELEMENTS*/
 
 #splash-header {
-    height: 70%;
-    height: 70vh;
-    margin: 0 auto;
+    height: 95%;
+    height: 95vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    text-align: center;
-    font-size: 13vw;
     justify-content: center;
-    max-width: 6em;
     hyphens: none;
 
     h1 {
-        font-size: 15vw;
+        font-size: 7vw;
         line-height: 1;
 
         @media (min-width: 90vh) {
-        font-size: 9vh;
-        max-width: 6em;
-        margin: 0 auto;
+        font-size: 8vh;
+        }
+
+        .junicode {
+            font-size: 1.1em;
+            font-weight: 100;
         }
     }
 }
@@ -105,14 +102,16 @@ section {
     top: -1;
     left: 0;
     padding-left: 1.5em;
-    text-indent:-1.5em;
+    text-indent:-36px;
+    padding-top: 20px;
     margin: 0 0;
+    margin-left: -5px;
     z-index: 50;
     box-shadow: 0px 0px 40px var(--bg-main);
 }
 
 .sticky-header:before {
-    content: "CHPT: ";
+    content: "TREND: ";
     font-size: 0.4em;
     color: var(--text-secondary);
     font-family: 'Source Code Pro', monospace !important;
@@ -130,13 +129,18 @@ button {
 
 /* ARTICLE STYLING */
 
-.article-subtitle p {
-    font-family: 'Inter', sans-serif;
+.article-subtitle {
+    
+    p {
+        font-family: 'Inter', sans-serif;
+    }
 
     strong {
         font-family: 'Junicode-Condensed' !important;
+        text-transform: uppercase;
         font-weight: 100;
         font-weight: normal;
         font-size: 1.1em;
+        line-height: 1.4em;
     }
 }
