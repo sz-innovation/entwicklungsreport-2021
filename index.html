@@ -20,7 +20,7 @@ title: Entwicklungsreport 2021
     <div class="flex flex-wrap w-100">
         <div class="w-25-ns w-0 junicode pr2" id="nav">
             <button class="mono f6 br-pill dib dn-ns bn pl2 pr2" id="menu-button">Contents</button>
-            <nav class="w-100 dn dib-ns pr4" id="contents">
+            <nav class="w-100 dn dib-ns pa3" id="contents">
                 <h2 class="pt2 pr6 pb2 mono lh-solid contrast-color ttu f6">
                     contents
                 </h2>
@@ -28,26 +28,26 @@ title: Entwicklungsreport 2021
                     {% for article in site.trends %}
                         <li class="mb3"><a href="#{{ article.title | replace: " ", "_" }}" class="txt-color link">{{ article.title }}</a></li>
                     {% endfor %}
+                    <li>
+                        <button class="mt4 mono f6 br-pill bg-main contrast-color ba pa2 pl3 pr3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+                              </svg>
+                              Download PDF
+                        </button>
+                    </li>
                 </ul>
             </nav>
         </div>
-        <article class="w-75-ns w-100" id="content">
+        <article class="w-75-ns w-100 pa3" id="content">
             <section class="f4-ns f5 mb7 pl3-ns txt-color w-100 lh-copy measure-wide sans-serif" id="splash-header">
                 <p class="mono f6 mb4 flex items-center">
                     <a href="{{site.url}}/" class="link"><img class="w2" src="{{site.url}}/img/logo.svg"></a>
-                    <span class="ttu pl3">Entwicklungsreport 2021<br>Ein Report des SZ Innovationsteams</span>
+                    <span class="ttu pl3">Entwicklungsreport 2021/2022<br>Ein Report des SZ Innovationsteams</span>
                 </p>
                 <h1 class="pt0 pb5 measure-wide f1-ns f2 lh-title">Was formt die <span class="junicode ttu">Zukunft</span> des <span class="junicode ttu">Journalismus</span>?</h1>
                 <p class="mt0 pb2 measure-wide f4-ns sans-serif indent-big article-subtitle lh-copy">Die Zukunft bleibt trotz aller gegenteiligen Versuche unvorhersagbar—eine Lektion, die zu genüge durch die letzten 18 Monate wiederholt wurde. Und ebenso wie es nicht die <strong>eine gelebte journalistische Gegenwart</strong> gibt, wird es auch nicht die <strong>eine singuläre Zukunft</strong> des Journalismus</p>
-                <p>
-                    <button id="print-btn" class="mono f6 br-pill bg-main contrast-color ba pa2 pl3 pr3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
-                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
-                          </svg>
-                          Download PDF
-                    </button>
-                </p>
             </section>
 
             {% for article in site.trends %}
