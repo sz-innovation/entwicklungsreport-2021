@@ -52,7 +52,7 @@ section {
         font-family: 'Source Code Pro', monospace !important;
         font-size: 0.8em;
         color: var(--main-contrast);
-        margin-left: 1.0em;
+        margin-left: 35px;
         margin-top: 3em;
     }
 
@@ -67,6 +67,9 @@ section {
     div, p {
         margin-left: 36px;
     }
+
+    li p{ margin-left: 0px;}
+    ol {margin-left: 36px; padding-left: 0px;}
 }
 
 /*ELEMENTS*/

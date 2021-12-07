@@ -8,8 +8,25 @@ body{
 //IMAGE STYLES
 img {border-radius: 5px;}
 
-//NAV BAR
+//SVG STYLES
+.svg-icon {
+    width: 1.1em;
+    height: 1.1em;
+    padding: 0 3px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: var(--main-contrast);
+  }
+  
+  .svg-icon circle {
+    stroke: var(--main-contrast);
+    stroke-width: 1;
+  }
 
+//NAV BAR
 nav {
     position: sticky;
     top: 10;

@@ -3,20 +3,6 @@ layout: home
 title: Entwicklungsreport 2021
 ---
 <div>
-    <!--<div>
-        <p class="tc ma0"><img class="rotate-slow center w-25-l w-30-m w-50 50 ma0" src="{{site.url}}/img/splash-img.png"></p>
-        <h1 class="pt4 junicode normal tc contrast-color">Was formt die Zukunft des Journalismus?</h1>
-    </div>
-    <h1 class="mt0 mb5 measure-wide center f5-ns f6 lh-copy tc mono txt-color-secondary lj-solid">Die Zukunft bleibt trotz aller gegenteiligen Versuche unvorhersagbar—eine Lektion, die zu genüge durch die letzten 18 Monate wiederholt wurde. Und ebenso wie es nicht die <i>eine gelebte journalistische Gegenwart</i> gibt, wird es auch nicht die <i>eine singuläre Zukunft des Journalismus</i> geben.</h1>
-    <p class="tc ma0 pa0">
-        <button class="mono f6 br-pill bg-main contrast-color ba pa2 pl3 pr3" id="download-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
-                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
-              </svg>
-              Download PDF
-        </button>
-    </p>-->
     <div class="flex flex-wrap w-100">
         <div class="w-25-ns w-0 junicode pr2" id="nav">
             <button class="mono f6 br-pill dib dn-ns bn pl2 pr2" id="menu-button">Contents</button>
@@ -28,15 +14,19 @@ title: Entwicklungsreport 2021
                     {% for article in site.trends %}
                         <li class="mb3"><a href="#{{ article.title | replace: " ", "_" }}" class="txt-color link">{{ article.title }}</a></li>
                     {% endfor %}
+                    <li><hr></li>
                     <li>
-                        <button class="mt4 mono f6 br-pill bg-main contrast-color ba pa2 pl3 pr3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
-                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
-                              </svg>
-                              Download PDF
+                        <button class="mt3 mono f6 br-pill bg-main contrast-color ba pa2 flex">
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <path fill="none" d="M15.608,6.262h-2.338v0.935h2.338c0.516,0,0.934,0.418,0.934,0.935v8.879c0,0.517-0.418,0.935-0.934,0.935H4.392c-0.516,0-0.935-0.418-0.935-0.935V8.131c0-0.516,0.419-0.935,0.935-0.935h2.336V6.262H4.392c-1.032,0-1.869,0.837-1.869,1.869v8.879c0,1.031,0.837,1.869,1.869,1.869h11.216c1.031,0,1.869-0.838,1.869-1.869V8.131C17.478,7.099,16.64,6.262,15.608,6.262z M9.513,11.973c0.017,0.082,0.047,0.162,0.109,0.226c0.104,0.106,0.243,0.143,0.378,0.126c0.135,0.017,0.274-0.02,0.377-0.126c0.064-0.065,0.097-0.147,0.115-0.231l1.708-1.751c0.178-0.183,0.178-0.479,0-0.662c-0.178-0.182-0.467-0.182-0.645,0l-1.101,1.129V1.588c0-0.258-0.204-0.467-0.456-0.467c-0.252,0-0.456,0.209-0.456,0.467v9.094L8.443,9.553c-0.178-0.182-0.467-0.182-0.645,0c-0.178,0.184-0.178,0.479,0,0.662L9.513,11.973z"></path>
+                            </svg>Download PDF
                         </button>
                     </li>
+                    <li class="mono f6 mt3"><button class="mt3 mono f6 br-pill bg-main contrast-color ba pa2 flex">
+                        <svg class="svg-icon" viewBox="0 0 20 20">
+							<path fill="none" d="M17.051,3.302H2.949c-0.866,0-1.567,0.702-1.567,1.567v10.184c0,0.865,0.701,1.568,1.567,1.568h14.102c0.865,0,1.566-0.703,1.566-1.568V4.869C18.617,4.003,17.916,3.302,17.051,3.302z M17.834,15.053c0,0.434-0.35,0.783-0.783,0.783H2.949c-0.433,0-0.784-0.35-0.784-0.783V4.869c0-0.433,0.351-0.784,0.784-0.784h14.102c0.434,0,0.783,0.351,0.783,0.784V15.053zM15.877,5.362L10,9.179L4.123,5.362C3.941,5.245,3.699,5.296,3.581,5.477C3.463,5.659,3.515,5.901,3.696,6.019L9.61,9.86C9.732,9.939,9.879,9.935,10,9.874c0.121,0.062,0.268,0.065,0.39-0.014l5.915-3.841c0.18-0.118,0.232-0.36,0.115-0.542C16.301,5.296,16.059,5.245,15.877,5.362z"></path>
+						</svg>Newsletter
+                    </button></li>
                 </ul>
             </nav>
         </div>
