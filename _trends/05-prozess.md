@@ -17,3 +17,5 @@ Denn wer sich konsequent den sich ändernden Nutzungsbedürfnissen orientieren w
 ## Daran werde ich es 2022 erkennen:
 
 Innovation ist kein abgeschlossener Prozess, es geht weiter. Immer weiter.
+
+![](../img/05.png)

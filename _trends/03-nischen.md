@@ -17,3 +17,5 @@ Denn durch den Fokus auf den Nutzungskontext entstehen nicht nur andere Botschaf
 ## Daran werde ich es 2022 erkennen: 
 
 An die Stelle der Idee Wetten-dass? (eine Bühne für alle) wird 2022 weiter das fraktale Prinzip “Spotify” treten, das noch weitere Gesellschaftsbereiche erreichen wird: Personalisierte Zugänge versprechen höhere Wertschätzung.
+
+![](../img/03.png)

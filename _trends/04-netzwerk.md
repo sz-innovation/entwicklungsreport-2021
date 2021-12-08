@@ -17,3 +17,5 @@ Die bereits gewachsenen Analyse-Einheiten in Redaktion werden deshalb absehbar w
 ## Daran werde ich es 2022 erkennen:
 
 Die Post-Cookie-Welt sollte eine sein, in der es gelingt, Datenschutz und Datennutz zu vereinen. Im Jahr 2022 (und den folgenden) wird darum gekämpft werden.
+
+![](../img/04.png)
