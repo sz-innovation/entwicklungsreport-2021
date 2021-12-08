@@ -18,4 +18,4 @@ Denn wer sich konsequent den sich ändernden Nutzungsbedürfnissen orientieren w
 
 Innovation ist kein abgeschlossener Prozess, es geht weiter. Immer weiter.
 
-![](../img/05.png)
+![](https://sz-innovation.github.io/entwicklungsreport-2021/img/05.png)

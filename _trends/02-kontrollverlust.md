@@ -22,4 +22,4 @@ Wo früher galt “eine gute Geschichte findet ihre Leser” ist heute das Maxim
 
 User-Centred-Design wird wichtiger werden. Projekte werden häufiger noch als bisher nicht mehr auf Seite der Produzierenden begonnen, sondern aus einem Nutzer-Interesse hergeleitet. Umfragen, Ethnografie und Marktforschung werden an Bedeutung gewinnen. 
 
-![](../img/02.png)
+![](https://sz-innovation.github.io/entwicklungsreport-2021/img/02.png)

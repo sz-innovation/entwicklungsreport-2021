@@ -25,4 +25,4 @@ Daran werde ich es 2022 erkennen: Büroarbeit, Konferenzen und Veranstaltungen w
 
 Büroarbeit, Konferenzen und Veranstaltungen werden hybrid bleiben. Neue Arbeitszusammenhänge werden entstehen, die auf dem Zusammenspiel des vermeintlichen Gegensatzes Home und Office basieren.
 
-![](../img/01.png)
+![](https://sz-innovation.github.io/entwicklungsreport-2021/img/01.png)
