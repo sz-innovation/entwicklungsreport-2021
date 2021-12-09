@@ -7,7 +7,7 @@ Dieser Report ist ein Projekt des _SZDM Innovationsteams_ und des _SZ Instituts_
 München, Dezember 2021.
 
 **Text**<br>
-Dirk von Gehlen
+Dirk von Gehlen & Johannes Klingebiel
 
 **Design**<br>
 Johannes Klingebiel
