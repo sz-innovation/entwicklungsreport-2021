@@ -18,8 +18,7 @@ Einfache Antworten (entweder-oder) werden dadurch unmöglich. Es wird notwendig,
 
 Das Denken in klaren Widersprüchen und Polaritäten soll Übersicht erzeugen, führt aber in komplexen Systemen häufig zu einer problematischen Vereinfachung. Die Sowohl-als-auch-Kultur, die ein hybrides Denken fördert, kann dabei helfen, das Unvorhersehbare und Überraschende in Entscheidungsprozesse zu integrieren. 
 
-Sie basiert auf der Idee, vermeintlich gegensätzliche Entscheidungen gemeinsam zu denken - also Inhalte sowohl auf Papier als auch digital anzubieten. 
-Daran werde ich es 2022 erkennen: Büroarbeit, Konferenzen und Veranstaltungen werden hybrid bleiben. Neue Arbeitszusammenhänge werden entstehen, die auf dem Zusammenspiel des vermeintlichen Gegensatzes Home und Office basieren.
+Sie basiert auf der Idee, vermeintlich gegensätzliche Entscheidungen gemeinsam zu denken - also Inhalte sowohl auf Papier als auch digital anzubieten.
 
 ## Daran werde ich es 2022 erkennen:
 
