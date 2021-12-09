@@ -26,18 +26,3 @@ contents.addEventListener("click", function() {
     contents.classList.remove("opened");
     document.body.classList.remove("contents-open");
 });
-
-// BINDERY.JS
-
-document.querySelector('#print-btn').addEventListener("click", function() {
-    document.querySelector('#nav').classList.add('dn');
-    document.querySelector('#print-btn').classList.add('dn');
-    Bindery.makeBook({
-        content: '#content',
-        rules: [
-            Bindery.PageBreak({ selector: 'h2', position: 'before' }),
-            Bindery.FullBleedSpread({ selector: '.big-figure' }),
-        ],
-     });
-});
-</script>
